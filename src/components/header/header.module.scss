@@ -1,0 +1,23 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    padding-inline: calc((100% - var(--content-width)) / 2);
+    height: 120px;
+    margin: 0 auto;
+    background-color: #000000c5;
+
+    &__logo {
+        width: 100px;
+        border-radius: 50%;
+    }
+
+    &__nav {
+        display: flex;
+        column-gap: 30px;
+    }
+}

@@ -1,0 +1,11 @@
+@import "./assets/styles/_normalize.scss";
+@import "./assets/styles/_fonts.scss";
+@import "./assets/styles/_globals.scss";
+@import "./assets/styles/_variables.scss";
+
+@import "./components/header/header.module.scss";
+
+@import "./pages/main/main.module.scss";
+@import "./pages/main/components/hero/hero.module.scss";
+@import "./pages/main/components/hero/components/content-top/content-top.module.scss";
+@import "./pages/main/components/hero/components/content-bottom/content-bottom.module.scss";
