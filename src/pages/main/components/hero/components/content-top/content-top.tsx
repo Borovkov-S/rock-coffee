@@ -10,7 +10,7 @@ export function ContentTop(): ReactElement {
             </div>
             <div className="content-top__slogan">
                 <p className="content-top__slogan-top">Поставь жизнь на паузу,</p>
-                <p className="content-top__slogan-bottom">Мы добавим музыки!</p>
+                <p className="content-top__slogan-bottom">а мы добавим музыки!</p>
             </div>
         </div>
     );

@@ -9,7 +9,8 @@
     padding-inline: calc((100% - var(--content-width)) / 2);
     height: 120px;
     margin: 0 auto;
-    background-color: #000000c5;
+    background-color: #00000093;
+    z-index: 1000;
 
     &__logo {
         width: 100px;
