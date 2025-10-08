@@ -1,4 +1,4 @@
-import { AppColumn, Header, Page } from "./components";
+import { AppColumn, Footer, Header, Page } from "./components";
 import { Route, Routes } from "react-router-dom";
 import { Main } from "./pages";
 
@@ -19,6 +19,7 @@ function App() {
                     <Route path="/contacts" element={<div>Контакты</div>} />
                 </Routes>
             </Page>
+            <Footer />
         </AppColumn>
     );
 }

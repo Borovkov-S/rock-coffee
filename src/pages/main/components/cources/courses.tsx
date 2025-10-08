@@ -13,25 +13,25 @@ export function Cources(): ReactElement {
                 <ul className="cources-list">
                     <li className="cources-item">
                         <figure>
-                            <img src={vocalTeacher} alt="" className="cources-image" />
+                            <img src={vocalTeacher} alt="vocal-teacher" className="cources-image" />
                             <figcaption>Вокал, Фортепиано</figcaption>
                         </figure>
                     </li>
                     <li className="cources-item">
                         <figure>
-                            <img src={drumsTeacher} alt="" className="cources-image" />
+                            <img src={drumsTeacher} alt="drums-teacher" className="cources-image" />
                             <figcaption>Барабаны</figcaption>
                         </figure>
                     </li>
                     <li className="cources-item">
                         <figure>
-                            <img src={guitarTeacher} alt="" className="cources-image" />
+                            <img src={guitarTeacher} alt="guitar-teacher" className="cources-image" />
                             <figcaption>Гитара</figcaption>
                         </figure>
                     </li>
                     <li className="cources-item">
                         <figure>
-                            <img src={trumpetTeacher} alt="" className="cources-image" />
+                            <img src={trumpetTeacher} alt="trumpet-teacher" className="cources-image" />
                             <figcaption>Труба</figcaption>
                         </figure>
                     </li>

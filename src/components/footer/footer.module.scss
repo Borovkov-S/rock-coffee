@@ -1,0 +1,14 @@
+.footer {
+    // background-color: var(--color-brown);
+    text-align: center;
+
+    &-address {
+        padding-block: 20px;
+        background-color: var(--color-brown);
+    }
+
+    &-copyright {
+        background-color: #170707;
+        padding-block: 10px;
+    }
+}
