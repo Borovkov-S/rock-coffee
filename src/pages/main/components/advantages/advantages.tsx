@@ -4,12 +4,13 @@ import imageConcert from '../../../../assets/images/main/Concert.jpg'
 import imageCollective from '../../../../assets/images/main/Collective.jpg'
 import imageLeisure from '../../../../assets/images/main/Leisure.jpg'
 import "./advantages.module.scss";
+import { Title } from "../../../../components";
 
 export function Advantages(): ReactElement {
     return (
         <section className="advantages">
             <div className="advantages-inner">
-                <h2 className="advantages-title">У нас вы сможете</h2>
+                <Title>У нас вы сможете</Title>
                 <div className="advantages-block">
                     <p>Получить индивидуальные занятия с педагогом</p>
                     <img src={imageIndividual} alt="" className="advantages__individual-image" />
