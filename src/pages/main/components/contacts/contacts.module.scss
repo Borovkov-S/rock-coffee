@@ -1,0 +1,23 @@
+.contacts {
+    color: var(--color-brown);
+    text-align: center;
+    font-weight: bold;
+
+    &-inner {
+        margin: 0 auto;
+        width: var(--content-width);
+        height: 400px;
+    }
+
+    &-text {
+        font-size: 38px;
+        margin-block: 70px 100px;
+    }
+
+    &-link {
+        font-size: 50px;
+        border: 8px solid var(--color-brown);
+        border-radius: 20px;
+        padding: 5px 30px;
+    }
+}

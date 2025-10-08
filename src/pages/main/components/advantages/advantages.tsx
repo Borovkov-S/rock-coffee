@@ -3,7 +3,6 @@ import imageIndividual from '../../../../assets/images/main/individual.jpg'
 import imageConcert from '../../../../assets/images/main/Concert.jpg'
 import imageCollective from '../../../../assets/images/main/Collective.jpg'
 import imageLeisure from '../../../../assets/images/main/Leisure.jpg'
-import "./advantages.module.scss";
 import { Title } from "../../../../components";
 
 export function Advantages(): ReactElement {

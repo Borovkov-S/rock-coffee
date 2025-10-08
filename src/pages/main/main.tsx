@@ -1,5 +1,4 @@
-import { Hero, Advantages, Cources } from "./components";
-import "./main.module.scss";
+import { Hero, Advantages, Cources, Reviews } from "./components";
 
 export function Main() {
     return (
@@ -7,6 +6,7 @@ export function Main() {
             <Hero />
             <Advantages />
             <Cources />
+            <Reviews />
         </main>
     );
 }
