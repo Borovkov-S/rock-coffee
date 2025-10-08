@@ -1,4 +1,4 @@
-import { Hero, Advantages } from "./components";
+import { Hero, Advantages, Cources } from "./components";
 import "./main.module.scss";
 
 export function Main() {
@@ -6,6 +6,7 @@ export function Main() {
         <main className="main">
             <Hero />
             <Advantages />
+            <Cources />
         </main>
     );
 }

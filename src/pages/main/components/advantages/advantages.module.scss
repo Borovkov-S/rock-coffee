@@ -1,9 +1,16 @@
 .advantages {
     padding-block: 30px;
-    width: 1920px;
-    background-color: var(--color-light);
     color: var(--color-brown);
     font-size: 40px;
+
+    &-inner {
+        margin: 0 auto;
+        width: var(--content-width);
+
+        h2 {
+            padding-left: 50px;
+        }
+    }
 
     &-block {
         padding: 20px 30px;
@@ -15,11 +22,6 @@
             margin-top: 30px;
             max-width: 600px;
         }
-    }
-
-    &-inner {
-        margin: 0 auto;
-        width: var(--content-width);
     }
 
     &--right-text {
