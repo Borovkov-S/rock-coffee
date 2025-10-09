@@ -1,3 +1,5 @@
+@use './components/form/form.module.scss';
+
 .contacts {
     color: var(--color-brown);
     text-align: center;
@@ -6,18 +8,19 @@
     &-inner {
         margin: 0 auto;
         width: var(--content-width);
-        height: 400px;
+        padding-block: 70px;
     }
 
     &-text {
-        font-size: 38px;
-        margin-block: 70px 100px;
+        font-size: 30px;
+        margin-bottom: 20px;
     }
 
     &-link {
-        font-size: 50px;
+        font-size: 38px;
         border: 8px solid var(--color-brown);
         border-radius: 20px;
-        padding: 5px 30px;
+        padding: 0 20px;
+        margin-bottom: 50px;
     }
 }

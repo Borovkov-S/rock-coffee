@@ -1,0 +1,34 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    font-weight: normal;
+
+    textarea {
+        height: 150px;
+    }
+
+    &__input {
+        padding: 10px 7px;
+        border: 2px solid var(--color-brown);
+        border-radius: 14px;
+        resize: none;
+
+        &::placeholder {
+            font-style: italic;
+        }
+    }
+
+    &__button {
+        height: 60px;
+        width: 250px;
+        border: none;
+        border-radius: 14px;
+        background-color: var(--color-brown);
+        color: var(--color-light);
+        font-size: 24px;
+        margin: 20px auto 0;
+    }
+}

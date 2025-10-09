@@ -7,7 +7,7 @@ import trumpetTeacher from '../../../../assets/images/teachers/trumpet-teacher.j
 
 export function Cources(): ReactElement {
     return (
-        <div className="cources">
+        <section className="cources">
             <div className="cources-inner">
                 <Title>Окунись в мир музыки с профессионалами</Title>
                 <ul className="cources-list">
@@ -37,6 +37,6 @@ export function Cources(): ReactElement {
                     </li>
                 </ul>
             </div>
-        </div>
+        </section>
     );
 }
