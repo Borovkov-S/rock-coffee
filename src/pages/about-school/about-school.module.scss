@@ -1,0 +1,13 @@
+@use './components/why-us/why-us.module.scss';
+
+.about-school {
+    background-color: var(--color-light);
+    color: var(--color-brown);
+    padding-top: 120px;
+
+    &-inner {
+        width: var(--content-width);
+        margin: 0 auto;
+        padding-block: 30px 70px;
+    }
+}
