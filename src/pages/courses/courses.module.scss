@@ -1,12 +1,12 @@
-@use './components/why-us/why-us.module.scss';
+@use "./course-block/course-block.module.scss";
 
-.about-school {
+.courses {
     background-color: var(--color-light);
     color: var(--color-brown);
 
     &-inner {
         width: var(--content-width);
         margin: 0 auto;
-        padding-block: var(--header-height) 70px;
+        padding-block: var(--header-height) 50px;
     }
 }
