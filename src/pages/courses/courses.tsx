@@ -51,7 +51,7 @@ export function Courses(): ReactElement {
                         description={pianoCourseData.description}
                     />
                     <CourseBlock
-                        title={pianoCourseData.title}
+                        title={trumpetCourseData.title}
                         image={trumpetCourseData.image}
                         age={trumpetCourseData.age}
                         duration={trumpetCourseData.duration}
