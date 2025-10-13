@@ -1,14 +1,14 @@
 import type { ReactElement } from "react";
 import { Title } from "../../components";
-import { CourseBlock } from "./course-block/course-block";
-import { COURSES_DATA } from "../../COURSES_DATA.ts";
+import { CourseBlock } from "./components";
+import { SERVICES_DATA } from "../../SERVICES_DATA.ts";
 
 export function Courses(): ReactElement {
-    const guitarCourseData = COURSES_DATA.guitar;
-    const drumsCourseData = COURSES_DATA.drums;
-    const vocalCourseData = COURSES_DATA.vocal;
-    const pianoCourseData = COURSES_DATA.piano;
-    const trumpetCourseData = COURSES_DATA.trumpet;
+    const guitarCourseData = SERVICES_DATA.guitar;
+    const drumsCourseData = SERVICES_DATA.drums;
+    const vocalCourseData = SERVICES_DATA.vocal;
+    const pianoCourseData = SERVICES_DATA.piano;
+    const trumpetCourseData = SERVICES_DATA.trumpet;
     return (
         <div className="courses">
             <div className="courses-inner">

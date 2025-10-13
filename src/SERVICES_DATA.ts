@@ -1,11 +1,14 @@
-import type { Course } from "./types/course.interface";
+import type { Service } from "./types/service.interface";
 import guitarImage from "./assets/images/courses/guitar.jpg";
 import drumsImage from "./assets/images/courses/drums.jpg";
 import pianoImage from "./assets/images/courses/piano.jpg";
 import vocalImage from "./assets/images/courses/vocal.jpg";
 import trumpetImage from "./assets/images/courses/trumpet.jpg";
+import oneTimeSubscriptionImage from "./assets/images/services/individual-subscription.jpg";
+import blueRoomImage from "./assets/images/services/blue-room.jpg";
+import greenRoomImage from "./assets/images/services/green-room.jpg";
 
-export const COURSES_DATA: { [key: string]: Course } = {
+export const SERVICES_DATA: { [key: string]: Service } = {
     guitar: {
         title: "Гитара",
         image: guitarImage,
@@ -55,5 +58,24 @@ export const COURSES_DATA: { [key: string]: Course } = {
         price: "6000/12000",
         description:
             "Первый звук трубы — это ваша победа. За 4 занятия мы ее добьемся: поставим дыхание, найдем амбушюр и сыграем простой мотив. За 8 занятий вы освоите 1.5-2 октавы, научитесь играть выразительные мелодии и почувствуете себя настоящим солистом. Преодолейте вызов и получите ни с чем не сравнимое ощущение власти над медным звуком",
+    },
+    oneTimeSubscription: {
+        image: oneTimeSubscriptionImage,
+        price: "2000₽",
+        title: "Разовый абонемент",
+        description: `Ищете возможность развить музыкальные навыки? Предлагаем разовое индивидуальное занятие: гитара, барабаны, фортепиано, вокал, труба, сольфеджио и гармония. Срок действия абонемента - 6 месяцев с момента покупки`,
+    },
+    blueRoom: {
+        image: blueRoomImage,
+        price: "1200₽/час",
+        title: "Репетиция. Синяя комната 'Вокальная'",
+        description:
+            "Приглашаем в уютную Синюю комнату для музыкальных мастер-классов. Это идеальное пространство для творчества, обучения и неформальных встреч единомышленников. Наши профессионалы помогут вам освоить игру на инструментах и погрузиться в атмосферу вдохновения.",
+    },
+    greenRoom: {
+        image: greenRoomImage,
+        price: "600₽/час",
+        title: "Репетиция. Зеленая комната 'Инструментальная'",
+        description: `Профессиональная студия для репетиций и музыкальных занятий. В помещении есть всё необходимое: акустическое оформление и базовые инструменты. Рассчитана на группы до 6 человек. Аренда — от 2 часов. Базовая стоимость указана для группы до 4 человек, каждый дополнительный участник оплачивается 200 ₽/час.`,
     },
 };

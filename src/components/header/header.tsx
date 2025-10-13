@@ -17,11 +17,11 @@ export function Header(): ReactElement {
                 <Link to={"/courses"} className="header__nav-link">
                     Направления
                 </Link>
-                <Link to={"/teachers"} className="header__nav-link">
+                {/* <Link to={"/teachers"} className="header__nav-link">
                     Преподаватели
-                </Link>
+                </Link> */}
                 <Link to={"/prices"} className="header__nav-link">
-                    Цены
+                    Услуги
                 </Link>
                 <Link to={"/contacts"} className="header__nav-link">
                     Контакты

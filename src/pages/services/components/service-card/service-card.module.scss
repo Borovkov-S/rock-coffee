@@ -1,0 +1,41 @@
+.service-card {
+    display: flex;
+    column-gap: 50px;
+    border: 3px solid var(--color-brown);
+    border-radius: 20px;
+    padding: 30px 50px;
+
+    &:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    &__image {
+        max-height: 300px;
+        border-radius: 20px;
+        border: 3px solid var(--color-brown);
+    }
+
+    &__info {
+        border-left: 2px solid var(--color-brown);
+        padding-left: 50px;
+        width: 100%;
+
+        &-price {
+            text-align: right;
+            margin-bottom: 10px;
+            border-bottom: 1px solid var(--color-brown);
+            padding-right: 15px;
+        }
+
+        &-title {
+            border-bottom: 1px solid var(--color-brown);
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+
+        &-description {
+            font-size: 18px;
+            text-wrap: wrap;
+        }
+    }
+}

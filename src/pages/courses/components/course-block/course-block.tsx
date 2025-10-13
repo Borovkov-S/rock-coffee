@@ -1,7 +1,7 @@
 import type { ReactElement } from "react";
-import type { Course } from "../../../types/course.interface";
+import type { Service } from "../../../../types/service.interface";
 
-export function CourseBlock(courseData: Course): ReactElement {
+export function CourseBlock(courseData: Service): ReactElement {
     return (
         <li className="course-block">
             <img

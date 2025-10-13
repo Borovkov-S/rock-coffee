@@ -1,6 +1,6 @@
-@use "./components/index";
+@use './components/index';
 
-.courses {
+.services {
     background-color: var(--color-light);
     color: var(--color-brown);
 
@@ -8,5 +8,9 @@
         width: var(--content-width);
         margin: 0 auto;
         padding-block: var(--header-height) 50px;
+    }
+
+    &-list {
+
     }
 }
