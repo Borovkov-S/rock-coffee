@@ -1,0 +1,31 @@
+@use "../../assets/styles/mixins" as mixins;
+
+.contacts {
+    background-color: var(--color-light);
+    color: var(--color-brown);
+
+    &-inner {
+        @include mixins.page-inner;
+
+        p {
+            margin: 0;
+        }
+    }
+
+    &-socials {
+        display: flex;
+        column-gap: 10px;
+    }
+
+    &-info {
+        margin-bottom: 30px;
+
+        p {
+            font-weight: bold;
+        }
+    }
+
+    &-phone {
+        margin-bottom: 20px;
+    }
+}

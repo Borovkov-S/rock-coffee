@@ -1,6 +1,6 @@
 import { AppColumn, Footer, Header, Page } from "./components";
 import { Route, Routes } from "react-router-dom";
-import { Main, AboutSchool, Courses, Services } from "./pages";
+import { Main, AboutSchool, Courses, Services, Contacts } from "./pages";
 
 function App() {
     return (
@@ -11,12 +11,8 @@ function App() {
                     <Route path="/" element={<Main />} />
                     <Route path="/about-school" element={<AboutSchool />} />
                     <Route path="/courses" element={<Courses />} />
-                    <Route
-                        path="/teachers"
-                        element={<div>Преподаватели</div>}
-                    />
                     <Route path="/prices" element={<Services />} />
-                    <Route path="/contacts" element={<div>Контакты</div>} />
+                    <Route path="/contacts" element={<Contacts />} />
                 </Routes>
             </Page>
             <Footer />

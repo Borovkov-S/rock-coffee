@@ -1,12 +1,11 @@
 @use "./components/index";
+@use '../../assets/styles/mixins' as mixins;
 
 .courses {
     background-color: var(--color-light);
     color: var(--color-brown);
 
     &-inner {
-        width: var(--content-width);
-        margin: 0 auto;
-        padding-block: var(--header-height) 50px;
+        @include mixins.page-inner;
     }
 }

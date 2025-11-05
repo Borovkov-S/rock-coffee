@@ -1,4 +1,4 @@
-import { Hero, Advantages, Cources, Reviews } from "./components";
+import { Hero, Advantages, Cources, FormBlock } from "./components";
 
 export function Main() {
     return (
@@ -6,7 +6,7 @@ export function Main() {
             <Hero />
             <Advantages />
             <Cources />
-            <Reviews />
+            <FormBlock />
         </main>
     );
 }

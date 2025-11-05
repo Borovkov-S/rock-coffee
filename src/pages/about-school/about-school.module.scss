@@ -1,12 +1,11 @@
 @use './components/why-us/why-us.module.scss';
+@use '../../assets/styles/mixins' as mixins;
 
 .about-school {
     background-color: var(--color-light);
     color: var(--color-brown);
 
     &-inner {
-        width: var(--content-width);
-        margin: 0 auto;
-        padding-block: var(--header-height) 70px;
+        @include mixins.page-inner;
     }
 }

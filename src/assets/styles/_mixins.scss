@@ -8,3 +8,9 @@
     justify-content: center;
     align-items: center;
 }
+
+@mixin page-inner {
+    width: var(--content-width);
+    margin: 0 auto;
+    padding-block: var(--header-height) 50px;
+}

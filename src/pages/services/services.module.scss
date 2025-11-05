@@ -1,16 +1,11 @@
 @use './components/index';
+@use '../../assets/styles/mixins' as mixins;
 
 .services {
     background-color: var(--color-light);
     color: var(--color-brown);
 
     &-inner {
-        width: var(--content-width);
-        margin: 0 auto;
-        padding-block: var(--header-height) 50px;
-    }
-
-    &-list {
-
+        @include mixins.page-inner;
     }
 }
