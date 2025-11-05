@@ -7,7 +7,7 @@ export function Header(): ReactElement {
     return (
         <header className="header">
             <img src={logo} alt="logo" className="header__logo" />
-            <div className="header__nav">
+            <nav className="header__nav">
                 <Link to={"/"} className="header__nav-link">
                     Главная
                 </Link>
@@ -17,16 +17,13 @@ export function Header(): ReactElement {
                 <Link to={"/courses"} className="header__nav-link">
                     Направления
                 </Link>
-                {/* <Link to={"/teachers"} className="header__nav-link">
-                    Преподаватели
-                </Link> */}
                 <Link to={"/prices"} className="header__nav-link">
                     Услуги
                 </Link>
                 <Link to={"/contacts"} className="header__nav-link">
                     Контакты
                 </Link>
-            </div>
+            </nav>
         </header>
     );
 }
