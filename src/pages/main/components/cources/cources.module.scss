@@ -11,14 +11,21 @@
         justify-content: space-between;
         padding-bottom: 30px;
 
-        figcaption {
-            margin-top: 20px;
+        figure {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            figcaption {
+                margin-top: 20px;
+                max-width: clamp(120px, 14.5vw, 270px);
+            }
         }
     }
 
     &-image {
-        width: 270px;
-        height: 350px;
+        width: clamp(180px, 14.5vw, 270px);
+        height: clamp(250px, 18.4vw, 350px);
         border: 3px solid var(--color-light);
         border-radius: 20px;
     }

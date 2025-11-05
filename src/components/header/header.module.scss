@@ -10,7 +10,7 @@
     align-items: center;
     font-size: clamp(16px, 1.5vw, 22px);
     padding-inline: calc((100% - var(--content-width)) / 2);
-    height: clamp(85px, 9vw, 120px);
+    height: var(--header-height);
     background-color: #2c0c0ce9;
     z-index: 1000;
 

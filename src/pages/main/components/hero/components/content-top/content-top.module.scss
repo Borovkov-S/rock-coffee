@@ -1,36 +1,36 @@
 .content-top {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 120px;
+    margin-bottom: clamp(60px, 6vw, 120px);
 
     &__title {
-        line-height: 140px;
+        line-height: clamp(90px, 8vw, 140px);
         font-weight: bold;
         width: 700px;
         color: var(--color-light);
 
         &-top {
-            font-size: 200px;
+            font-size: clamp(105px, 10.5vw, 200px);
             letter-spacing: 5px;
         }
         &-bottom {
-            font-size: 120px;
+            font-size: clamp(70px, 6.3vw, 120px);
             text-align: right;
             letter-spacing: 5px;
         }
     }
 
     &__slogan {
-        font-size: 32px;
-        
         &-top {
-            margin-left: -60px;
+            font-size: clamp(16px, 1.7vw, 32px);
+            margin-left: clamp(-50px, -2.5vw, -20px);
             margin-bottom: 10px;
             line-height: 30px;
         }
 
         &-bottom {
-            font-size: 38px;
+            font-size: clamp(16px, 2vw, 38px);
+            text-wrap: nowrap;
         }
     }
 }

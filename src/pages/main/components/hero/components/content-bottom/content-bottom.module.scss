@@ -1,26 +1,22 @@
 .content-bottom {
     position: relative;
-    font-size: 36px;
+    font-size: clamp(23px, 2.3vw, 36px);
     font-weight: bold;
     letter-spacing: 4px;
     color: var(--color-light);
 
-    &--left {
+    &--left,
+    &--center,
+    &--right {
         width: fit-content;
         padding: 5px 20px;
         border-inline: 5px solid var(--color-light);
     }
     &--center {
-        margin: 30px auto;
-        width: fit-content;
-        padding: 5px 20px;
-        border-inline: 5px solid var(--color-light);
+        margin: clamp(20px, 2vw, 30px) auto;
     }
     &--right {
         position: absolute;
-        width: fit-content;
-        padding: 5px 20px;
-        border-inline: 5px solid var(--color-light);
         right: 0;
     }
 }

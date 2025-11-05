@@ -14,7 +14,7 @@ export function Cources(): ReactElement {
                     <li className="cources-item">
                         <figure>
                             <img src={vocalTeacher} alt="vocal-teacher" className="cources-image" />
-                            <figcaption>Вокал, Фортепиано</figcaption>
+                            <figcaption>Вокал, фортепиано</figcaption>
                         </figure>
                     </li>
                     <li className="cources-item">

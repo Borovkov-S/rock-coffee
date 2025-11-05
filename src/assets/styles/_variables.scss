@@ -1,6 +1,6 @@
 :root {
-    --content-width: 60vw;
-    --header-height: 120px;
+    --content-width: clamp(750px, 60vw, 1200px);
+    --header-height: clamp(85px, 9vw, 120px);
 
     --color-light: #f0d1a6;
     --color-red: #dd3738;
